@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./css/lib/reset.css" />
+    <link rel="stylesheet" href="../jjong/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <!--[if lte IE 6]>
+            <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <![endif]-->
+
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/scroll_top.js"></script>
+    <!--<script src="./js/parallax.js"></script>-->
+    <title>JJong PORTFOLIO</title>
+    <style></style>
+    <script>
+        $(document).ready(function(){
+            /*parallax_scroll();*/
+            menu();
+            accordion();
+            scroll_top();
+        });
+    </script>
+</head>
+<body>
+   <div id="container">
+        <header id="headBox">
+                <h1><a href="./index.html"><span>logo</span></a></h1>
+                <ul class="list">
+                    <li class="list_01"><a href="#">PORTFOLIO 01</a></li>
+                    <li class="list_02 on"><a href="#">&lang;  PORTFOLIO  &rang;</a></li>
+                    <li class="list_03"><a href="#">PORTFOLIO 02</a></li>
+                </ul>
+                <div class="topt">
+                    <a href="#" class="topBtn"><span>TOP</span></a>
+                </div>
+                <button type="button" class="menu_btn">
+                   <div><span>첫번째 라인</span></div>
+                   <div><span>두번째 라인</span></div>
+                   <div><span>세번째 라인</span></div>
+                </button>
+                <nav>
+                    <ul class="sns_icon">
+                        <li title="페이스북"><a href="https://www.facebook.com/jongwon.sin2"><span>facebook</span></a></li>
+                        <li title="인스타그램"><a href="https://www.instagram.com/won8860/"><span>instargram</span></a></li>
+                        <li title="오픈채팅"><a href="https://open.kakao.com/o/sSfkQWk"><span>카카오 오픈채팅</span></a></li>
+                    </ul>
+                    <ul class="menu">
+                        <li><a href="./index.html">MAIN</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div id="bg"><span>오퍼시티</span></div>
+                <div id="slider_box">WHEEL DOWN SLIDE</div>
+            </header>
+        <div id="conBox">
+            <div class="container_01">
+                <div>
+                    <section class="sc_01">
+                        <article class="atc_01">
+                            <div class="img img_01_01"><span></span></div>
+                            <div class="img img_01_02"><span></span></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h2>STUDIO GHIBLI</h2>
+                            <h3><a href="http://www.ghibli.jp">http://www.ghibli.jp</a></h3>
+                            <p>스튜디오 지브리의 웹페이지로, 페이지의 메인이 플레시로 이루어져 있었고, 각 페이지 마다의 연관성이 보이지 않았습니다.</p>
+                            <p>폰트는 <span>"kopubdotum"</span>을 사용했거, 비슷한 레이아웃의 지루함을 보안하기 위해 페이지의 주색을 다르게 구성하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_01  -->
+                    
+                    <section class="sc_02">
+                        <article class="atc_01">
+                            <div class="img img_02_01"><span></span></div>
+                            <div class="img img_02_02"><span></span></div>
+                            <div class="img img_02_03"><span></span></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>INDEX</h3>
+                            <p>스튜디오 지브리를 주제로한 웹 페이지 작업입니다. 지브리의 작품중 재밋게 본 세가지 작품을 이용해 구성하였습니다.</p>
+                            <p>각각의 이미지에 마우스를 올리면 이미지가 각 섹션에 꽉 차도록 구성하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_02  -->
+                    
+                    <section class="sc_03">
+                        <article class="atc_01">
+                            <div class="img img_03_01"></div>
+                            <div class="img img_03_02"></div>
+                            <div class="img img_03_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 1</h3>
+                            <p>원스크롤 페이지로, 네비게이터등 이미지 외적인 요소들을 포지션을 사용해 왼쪽으로 고정 시켜주었습니다.</p>
+                            <p>왼쪽 화살표와 엑스버튼을 이용해, 다른 작품 페이지로 넘어가거나 메인페이지로 돌아갈 수 있습니다.</p>
+                        </article>
+                    </section> <!--  .sc_03  -->
+                    
+                    <section class="sc_04">
+                        <article class="atc_01">
+                            <div class="img img_04_01"></div>
+                            <div class="img img_04_02"></div>
+                            <div class="img img_04_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 2</h3>
+                            <p>javascript에서 jQuery라이브러리를 사용, addClass와 removeClass를 이용해 각 메뉴 위치에 왔을때, 현재 매뉴를 알 수 있도록 해주었습니다.</p>
+                            <p>javascript에서 jQuery라이브러리를 사용, scrollTop을 이용해 각 메뉴를 눌렀을 경우 해당 매뉴의 높이로 가도록 코딩하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_04  -->
+                    
+                    <section class="sc_05">
+                        <article class="atc_01">
+                            <div class="img img_05_01"></div>
+                            <div class="img img_05_02"></div>
+                            <div class="img img_05_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 3</h3>
+                            <p>audio의 controls를 사용하지 않고 왼쪽 하단에 아이콘을 디자인해 css로 뮤직플레이어를 만들어 주었습니다.</p>
+                            <p>javascript에서 jQuery라이브러리를 사용, 배열을 이용하였고 페이지에 들어오면 렌덤으로 지브리의 O.S.T들이 재생되도록 코딩 하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_05  -->
+                    
+                    <section class="sc_06">
+                        <article class="atc_01">
+                            <div class="img img_06_01"></div>
+                            <div class="img img_06_02"></div>
+                            <div class="img img_06_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 4</h3>
+                            <p>각각의 이미지들을 css에서 포지션을 사용해 배치해 주었고, :hover을 이용해서 마우스를 올렸을 때 살짝 이미지가 커지도록 효과를 주었습니다.</p>
+                            <p>javascript에서 jQuery라이브러리를 사용, addClass와 removeClass를 이용해, 커지면서 각각의 캐릭터의 설명이 나올수 있도록 작업하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_06  -->
+                </div>
+            </div>
+            
+            <div class="container_02">
+                <div>
+                    <section class="p_main_l">
+                        <div>
+                            <h2>STUDIO GHIBLI</h2>
+                            <div>&laquo;</div>
+                        </div>
+                    </section>
+                    <section class="p_main_r">
+                        <div>
+                            <h2>WEB;TOUR</h2>
+                            <div>&raquo;</div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="container_03">
+                <div>
+                    <section class="sc_01">
+                        <article class="atc_01">
+                            <div class="img img_01_01"><span></span></div>
+                            <div class="img img_01_02"><span></span></div>
+                            <div class="img img_01_03"><span></span></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h2>WEB;TOUR</h2>
+                            <h3><a href="http://www.webtour.com">http://www.webtour.com</a></h3>
+                            <p>웹투어라는 여행사 사이트입니다. 폰트는 "나눔고딕"을 사용 했습니다.</p>
+                            <p>너무 많은 정보가 있어, 복잡하고, 원하는 정보를 찾는데 시간이 걸렸습니다.</p>
+                        </article>
+                    </section> <!--  .sc_01  -->
+                    
+                    <section class="sc_02">
+                        <article class="atc_01">
+                            <div class="img img_02_01"><span></span></div>
+                            <div class="img img_02_02"><span></span></div>
+                            <div class="img img_02_03"><span></span></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>INDEX</h3>
+                            <p>메인 페이지에 슬라이드 배너를 구성하였습니다.</p>
+                            <p>javascript에서 jQuery라이브러리를 사용, 양쪽 버튼과 인디게이터를 구성하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_02  -->
+                    
+                    <section class="sc_03">
+                        <article class="atc_01">
+                            <div class="img img_03_01"></div>
+                            <div class="img img_03_02"></div>
+                            <div class="img img_03_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 1</h3>
+                            <p>메인 배너 아래, 베스트 상품 배너를 따로 구성하였고, 그 아래 여행 후기를 보여주는 창을 만들어, 각각의 택스트를 클릭했을경우 이미지를 볼 수 있게 구성하였습니다.</p>
+                            <p>가운데 이미지가 크게 보일수 있도록, 가운데 이미지만 css를 다르게 설정해주었고, 양옆의 이미지는 div를 따로 만들어 background-color을 이용해 톤 다운 시켰습니다.</p>
+                        </article>
+                    </section> <!--  .sc_03  -->
+                    
+                    <section class="sc_04">
+                        <article class="atc_01">
+                            <div class="img img_04_01"></div>
+                            <div class="img img_04_02"></div>
+                            <div class="img img_04_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 2</h3>
+                            <p>항공권 페이지를,form을 사용해 배너 위에 표를 구성하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_04  -->
+                    
+                    <section class="sc_05">
+                        <article class="atc_01">
+                            <div class="img img_05_01"></div>
+                            <div class="img img_05_02"></div>
+                            <div class="img img_05_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 3</h3>
+                            <p>table 태그를 사용해 특가항공 구역을 구성하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_05  -->
+                    
+                    <section class="sc_06">
+                        <article class="atc_01">
+                            <div class="img img_06_01"></div>
+                            <div class="img img_06_02"></div>
+                            <div class="img img_06_03"></div>
+                        </article> <!--  .atc_01 -->
+                        <article class="atc_02">
+                            <h3>In Detail 4</h3>
+                            <p>javascript에서 jQuery라이브러리를 사용, 반응형 웹을 염두해서,if문을 사용해 각각의 js가 해당 사이즈에 맞을때 반응하도록 코딩하였습니다.</p>
+                            <p>javascript에서 jQuery라이브러리를 사용, 모바일 사이즈일때 글로벌 네비게이션이 매뉴로 감추어 지도록 코딩하였습니다.</p>
+                        </article>
+                    </section> <!--  .sc_06  -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

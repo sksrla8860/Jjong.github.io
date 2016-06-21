@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./css/lib/reset.css" />
+    <link rel="stylesheet" href="/github1/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+    <script src="./js/jquery/jquery.mousewheel.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <title>JJONG ABOUT</title>
+    <style>
+    </style>
+    <script>
+        $(document).ready(function(){
+            
+            $(window).on('scroll', function(){
+                var wh = $(window).scrollTop(),
+                    i = $('.list li').index(),
+                    sb = $('#slider_box');
+                
+                if(i > 1){
+                    sb.hide();
+                }else
+                {
+                    sb.show();
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header id="headBox">
+            <h1><a href="./index.html"><span>logo</span></a></h1>
+            <ul class="list">
+                <li class="on"><a href="#">INFORMATION</a></li>
+                <li><a href="#">PERSONAL HISTORY</a></li>
+                <li><a href="#">PERSONALITY</a></li>
+            </ul>
+            <button type="button" class="menu_btn">
+                   <div><span>첫번째 라인</span></div>
+                   <div><span>두번째 라인</span></div>
+                   <div><span>세번째 라인</span></div>
+            </button>
+            <button class="top_button"><span>맨 위로</span></button>
+            <nav>
+                <ul class="sns_icon">
+                    <li title="페이스북"><a href="https://www.facebook.com/jongwon.sin2"><span>facebook</span></a></li>
+                    <li title="인스타그램"><a href="https://www.instagram.com/won8860/"><span>instargram</span></a></li>
+                    <li title="오픈채팅"><a href="https://open.kakao.com/o/sSfkQWk"><span>kakao</span></a></li>
+                </ul>
+                <ul class="menu">
+                    <li><a href="./index.html">MAIN</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="bg"><span>오퍼시티</span></div>
+            <div id="slider_box">WHEEL DOWN SLIDE</div>
+        </header>
+        
+        <section class="con_01">
+            <div id="photo_box">
+                <div class="photo_01">
+                    <div><span>사진</span></div>
+                </div>
+                <span></span>
+                <div class="photo_02">
+                    <div><span>사진</span></div>
+                </div>
+                <span></span>
+                <div class="photo_03">
+                    <div><span>사진</span></div>
+                </div>
+            </div>
+            <div class="infor_data">
+                <h2>SHIN JONG WON</h2>
+                <dl>
+                    <dt>생일</dt>
+                    <dd>1991.05.09</dd>
+                    <dt>번호</dt>
+                    <dd>010-2409-9480</dd>
+                    <dt>거주지</dt>
+                    <dd>서울시 광진구 화양동</dd>
+                    <dt>이메일</dt>
+                    <dd>sksrla8860@naver.com</dd>
+                </dl>
+            </div>
+            <span><!--아래 디자인 상자--></span>
+        </section>
+        <section class="con_02">
+            <div class="history">
+                <div class="m_line"></div>
+                <dl class="point_01"><dt>출생</dt>
+                    <dd>1991.05.09</dd><span></span></dl>
+                <dl class="point_02"><dt>서울 로봇 고등학교 입학</dt>
+                    <dd>2007.03.02 ~ 2010.02.28</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_03"><dt>동양 미래대학교 입학</dt>
+                    <dd>2010.03.02 ~ 2011.02.28</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_04"><dt>육군 통신병과 입대</dt>
+                    <dd>2011.01.10 ~ 2012.10.25</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_05"><dt>롯데 면세점 입사</dt>
+                    <dd>2012.11.02 ~ 2015.04.27</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_06"><dt>한국 IT전문학교 입학</dt>
+                    <dd>2013.03.02 ~ 2015.02.28</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_07"><dt>(주)트리시클로 입사</dt>
+                    <dd>2015.04.27 ~ 2015.07.26</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_08"><dt>실피드 입사</dt>
+                    <dd>2015.11.28 ~ 2015.12.27</dd><span><!--연혁 디자인 선--></span></dl>
+                <dl class="point_09"><dt>그린컴퓨터 아트 학원 수강</dt>
+                    <dd>2016.03.08 ~ 2016.07.01</dd><span><!--연혁 디자인 선--></span></dl>
+            </div> <!--  .history  -->
+            <div class="program">
+              <ul>
+                <dl>
+                   <dt>html/css</dt><dd>Makeup(웹의 구조,<br />레이아웃, 스타일)을 활용<br />하여 웹페이지 구축 가능</dd>
+                </dl>
+                <dl>
+                   <dt>sass(scss)</dt><dd>sass를 이용한 효율적인<br />css구축 가능</dd>
+                </dl>
+                <dl>
+                   <dt>Assistor(PS)</dt><dd>이미지 분할, 저장 및<br />툴 사용 가능</dd>
+                </dl>
+                <dl>
+                   <dt>Javascript(jQuery)</dt><dd>jQuery라이브러리를<br />이용한 스크립트 구현가능</dd>
+                </dl>
+                <dl>
+                   <dt>Photoshop</dt><dd>합성 및 다양한<br />아트웍 구현 가능</dd>
+                </dl>
+                <dl>
+                   <dt>Illustrator</dt><dd>캐릭터 및<br />UI 디자인 가능</dd>
+                </dl>
+                <dl>
+                   <dt>In Dsign</dt><dd>편집디자인 및<br />인쇄 활용 가능</dd>
+                </dl>
+                <dl>
+                   <dt>After Effector</dt><dd>영상 편집 및<br />효과 렌더링 가능</dd>
+                </dl>
+            </ul>
+            </div>
+        </section>
+        <section class="con_03">
+            <ul>
+                <li>활발함</li>
+                <li>체력</li>
+                <li>친화력</li>
+                <li>정신력</li>
+                <li>긍정적</li>
+                <li>승부욕</li>
+                <li>순발력</li>
+                <li>애니메이션</li>
+                <li>음악</li>
+                <li>음주</li>
+                <li>프라모델</li>
+                <li>영화</li>
+                <li>게임</li>
+                <li>운동</li>
+                <li>독서</li>
+                <li>고지식</li>
+                <li>먹을거</li>
+            </ul>
+        </section>
+    </div>
+    <script src="./js/menu.js"></script>
+    <script src="./js/rwd.js"></script>
+</body>
+</html>
